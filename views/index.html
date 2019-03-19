@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/javascripts/client.js"></script>
+</head>
+
+<body>
+
+<h1>${title}</h1>
+
+<main>
+
+    <div id="output"></div>
+    <form id="login">
+        <input type="text" name="username" id="username" placeholder="Username" />
+        <input type="submit" value="Login">
+    </form>
+
+    <br><br>
+    <form id="chat">
+        <input id="chat_input" type="text" name="msg" />
+        <input type="submit" value="Senden">
+    </form>
+
+</main>
+
+</body>
+</html>
